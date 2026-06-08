@@ -2,7 +2,7 @@
 
 I am a software engineer and graduate of **42**, specializing in **Backend, DevOps, and Site Reliability Engineering (SRE)**. 
 
-Before diving into infrastructure, I competed as a **professional eSports & poker player**. This background directly translates to SRE and DevOps: it forged my ability to manage real-time crises under extreme pressure, execute probability-driven risk assessments during critical system incidents, and maintain a sharp, data-driven mindset when service-level objectives are on the line.
+Before diving into infrastructure, I **spent years competing at the highest levels as a professional League of Legends & poker player**. This background directly translates to SRE and DevOps: it forged my ability to manage real-time crises under extreme pressure, execute probability-driven risk assessments during critical system incidents, and maintain a sharp, data-driven mindset when service-level objectives are on the line.
 
 ---
 
