@@ -18,10 +18,11 @@ A highly secure, multi-tier containerized infrastructure built from scratch usin
 - **Orchestration:** Engineered an isolated network running **8 distinct services**: NGINX (Reverse Proxy, TLS 1.3, path-based & multi-root routing), WordPress (PHP-FPM 8.2 hardened workers), and an internally isolated MariaDB instance.
 - **SRE & Operations:** Integrated Redis for object caching, vsftpd (FTPS data mapping), Adminer (secure UI), and **cAdvisor** to aggregate real-time container metrics (CPU, memory, and network I/O) directly from cgroups.
 
-#### 💬 [Ft_irc — High-Concurrency IRC Server](https://github.com/danoguer/ft_irc)
-An authentic Internet Relay Chat (IRC) server built in C++ conforming to the RFC standards.
-- **Architecture:** Engineered with non-blocking I/O multiplexing (`poll`/`select`) to handle massive concurrent client connections efficiently over TCP sockets without thread exhaustion.
-- **Features:** Implements channel/user management, network protocols, and an automated bot interfacing with external APIs for real-time channel metrics and environment alerts.
+#### 💬 [irc-server — RFC-Compliant](https://github.com/danoguer/irc-server)
+An Internet Relay Chat (IRC) server written in C++98 under strict academic constraints to demonstrate manual resource management and low-level network programming.
+- **Architecture:** Engineered with a single-threaded event loop utilizing non-blocking I/O multiplexing via `poll()` over TCP sockets, completely avoiding thread exhaustion.
+- **Load Benchmarking:** Audited via a custom synthetic stress tester written in **Go** (5,000 Goroutines), achieving **4,090 active simultaneous connections with 0.00% packet loss** up to the OS kernel file descriptor limits (`ulimits`).
+- **Infrastructure & Features:** Implements dynamic channel/operator management, standard protocols (`PRIVMSG`), and a decoupled containerized bot microservice interfacing with external APIs for real-time diagnostics.
 
 ---
 
