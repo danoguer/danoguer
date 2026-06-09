@@ -36,5 +36,5 @@ An authentic Internet Relay Chat (IRC) server built in C++ conforming to the RFC
 
 ### 📫 Connect with me
 
-- 💼 **LinkedIn:** [linkedin.com/in/daniel-nogueras-22054a387](https://www.linkedin.com/in/daniel-nogueras-22054a387/)
+- 💼 **LinkedIn:** [linkedin.com/in/daniel-nogueras-22054a387](https://www.linkedin.com/in/daniel-nogueras/)
 - ✉️ **Email:** [danoguer.dev@gmail.com](mailto:danoguer.dev@gmail.com)
