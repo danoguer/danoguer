@@ -1,5 +1,6 @@
 # Daniel Nogueras 👋
 ### Backend & Infrastructure Engineer
+**Go • C • C++ • Linux • Docker • Networking • Systems Programming**
 
 42 graduate focused on Backend Development and Systems Infrastructure. Former professional League of Legends and poker player—a background that trained my decision-making under pressure, analytical risk assessment, and data-driven approach to complex troubleshooting. 
 
@@ -12,8 +13,8 @@
 ### 💬 IRC Server — Non-Blocking C++ Network Service
 An Internet Relay Chat (IRC) server written in C++98 to demonstrate manual resource management and low-level network programming without modern language abstractions.
 
-*   **Architecture:** Designed around a single-threaded event loop utilizing non-blocking I/O multiplexing via `poll()` over TCP sockets, completely preventing thread exhaustion.
-*   **High-Concurrency Benchmarking:** Audited via a custom concurrent stress tester written in Go (utilizing 5,000 Goroutines), sustaining **4,090 active simultaneous connections** with 0.00% packet loss up to the OS kernel file descriptor limits (`ulimits`).
+*   **Architecture:** Designed around a single-threaded event loop utilizing non-blocking I/O multiplexing via `poll()` over TCP sockets, avoiding thread-per-connection scaling limitations.
+*   **High-Concurrency Benchmarking:** Audited via a custom concurrent stress tester written in Go (utilizing 5,000 Goroutines), sustaining **4,090 simultaneous client connections** with 0.00% packet loss up to the OS kernel file descriptor limits (`ulimits`).
 *   **Features:** Implements dynamic channel/operator management, standard protocols (PRIVMSG), and a containerized bot service interfacing with external APIs for diagnostics.
 
 ### 🛡️ Sentinel — Go CLI Utility & System Daemon (In Progress)
