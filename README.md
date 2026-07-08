@@ -42,5 +42,5 @@ A multi-tier containerized infrastructure environment built from scratch using D
 
 ## 📫 Connect with me
 
-*   💼 LinkedIn: linkedin.com/in/daniel-nogueras-22054a387
+*   💼 LinkedIn: linkedin.com/in/daniel-nogueras
 *   ✉️ Email: danoguer.dev@gmail.com
