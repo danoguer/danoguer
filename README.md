@@ -1,46 +1,71 @@
 # Daniel Nogueras 👋
-### Backend & Infrastructure Engineer
-**Go • C • C++ • Linux • Docker • Networking • Systems Programming**
 
-42 graduate focused on Backend Development and Systems Infrastructure. Former professional League of Legends and poker player—a background that trained my decision-making under pressure, analytical risk assessment, and data-driven approach to complex troubleshooting. 
+### Cloud & DevOps Engineer | Systems & Infrastructure
 
-**Seeking Backend, Infrastructure, or DevOps-oriented roles** where I can apply systems programming, Linux administration, and automation skills while continuing to grow in cloud-native technologies.
+Former professional League of Legends player and poker player, with a decade of competitive experience in decision-making, risk assessment, and analytical problem-solving. Now a 42 Systems Graduate focused on building reliable, automated, and cloud-native infrastructure.
 
----
-
-## 🚀 Featured Projects
-
-### 💬 IRC Server — Non-Blocking C++ Network Service
-An Internet Relay Chat (IRC) server written in C++98 to demonstrate manual resource management and low-level network programming without modern language abstractions.
-
-*   **Architecture:** Designed around a single-threaded event loop utilizing non-blocking I/O multiplexing via `poll()` over TCP sockets, avoiding thread-per-connection scaling limitations.
-*   **High-Concurrency Benchmarking:** Audited via a custom concurrent stress tester written in Go (utilizing 5,000 Goroutines), sustaining **4,090 simultaneous client connections** with 0.00% packet loss up to the OS kernel file descriptor limits (`ulimits`).
-*   **Features:** Implements dynamic channel/operator management, standard protocols (PRIVMSG), and a containerized bot service interfacing with external APIs for diagnostics.
-
-### 🛡️ Sentinel — Go CLI Utility & System Daemon (In Progress)
-A decoupled CLI utility and background system daemon built in Go that interfaces with the Gemini API to act as a secure, context-aware shell companion.
-
-*   **Core Logic:** Reduces the risk of sensitive data exposure (passwords, IPs, JWTs) through automated regex sanitization before external API transmission.
-*   **Systems & Automation:** Leverages Linux/WSL background daemons (`wsl.conf`), on-demand Function Calling, and automated retry layers designed to handle transient 502 network errors.
-
-### 🐳 Inception — Multi-Tier Containerized Network
-A multi-tier containerized infrastructure environment built from scratch using Docker and Docker Compose under strict academic architectural constraints.
-
-*   **Networking & Services:** Engineered an isolated virtual network running 8 distinct services, including NGINX (configured as a reverse proxy with TLS 1.3, path-based, and multi-root routing), WordPress (PHP-FPM 8.2 workers), and a MariaDB instance running on a private Docker network.
-*   **Monitoring & Storage:** Integrated Redis for object caching, vsftpd for FTPS data mapping, Adminer for database management, and cAdvisor to aggregate real-time container metrics (CPU, memory, and network I/O) directly from Linux cgroups.
+Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure, combining low-level systems programming (C/C++, Go) with Infrastructure as Code and container automation.
 
 ---
 
-## 🛠️ Tech Stack & Core Competencies
+### 🛠️ Tech Stack & Core Competencies
 
-*   **Languages:** C, Go, C++, Bash/Shell scripting
-*   **Tools & Infrastructure:** Docker, Docker Compose, Linux Systems, Nginx, Systems Administration, Git
-*   **Systems Concepts:** Concurrency, Network Programming (Sockets), Linux/POSIX API, System Daemons, Memory Management, Automation
-*   **Expanding Knowledge:** Kubernetes, Terraform, Prometheus / Grafana, CI/CD Pipelines
+| Domain                    | Technologies & Skills                                                                           |
+| :------------------------ | :---------------------------------------------------------------------------------------------- |
+| **Cloud & IaC**           | AWS (EC2, VPC, Security Groups), Terraform, Ansible                                             |
+| **Containers & Systems**  | Docker, Docker Compose, Linux, Linux administration, cgroups                                    |
+| **Languages**             | Go, C, C++, Bash/Shell Scripting                                                                |
+| **Networking & Security** | TCP/IP, POSIX sockets, I/O multiplexing (`poll`), NGINX, TLS, reverse proxy, input sanitization |
+| **Observability & CI/CD** | Prometheus, Grafana, cAdvisor, GitHub Actions, Git, Linux CLI                                   |
+| **Expanding Knowledge**   | AWS Solutions Architect – Associate (In preparation), Kubernetes                                |
 
 ---
 
-## 📫 Connect with me
+### 🚀 Featured Projects
 
-*   💼 LinkedIn: [linkedin.com/in/daniel-nogueras](https://www.linkedin.com/in/daniel-nogueras/)
-*   ✉️ Email: danoguer.dev@gmail.com
+#### ⚡ [CloudForge](https://github.com/danoguer/cloudforge) — Automated AWS Infrastructure Pipeline
+
+*Automated AWS deployment pipeline using Infrastructure as Code and configuration management.*
+
+- **IaC & Automation:** Provisioned multi-tier AWS EC2 infrastructure using **Terraform** paired with **Ansible** for automated server configuration.
+- **Architecture & Proxy:** Containerized web application stack managed via **Docker Compose** behind an automated **NGINX** reverse proxy with SSL/TLS termination.
+- **CI/CD:** Automated validation and deployment workflows using **GitHub Actions**.
+- **Reproducibility:** Single-command deployment and teardown through Terraform, Ansible, and Docker Compose.
+
+#### 🛡️ [Sentinel](https://github.com/danoguer/sentinel) — AI-Assisted SRE Context Engine & System Daemon
+
+*A Go-based SRE agent combining host telemetry, logs, workspace context, and AI-assisted diagnostics.*
+
+- **Go Systems Architecture:** CLI and background daemon collecting host telemetry, logs, and workspace context for AI-assisted diagnostics.
+- **Security & Resilience:** Built automated regex sanitization to strip secrets, credentials, and tokens before API transmission; implemented exponential backoff retries for transient HTTP errors.
+- **Observability:** Integrates system metrics, process information, logs, and workspace context to provide actionable diagnostic recommendations.
+
+#### 💬 [IRC Server](https://github.com/danoguer/irc-server) — Non-Blocking C++ Network Service
+
+*Custom C++98 Internet Relay Chat server designed for low-level resource management and socket I/O multiplexing.*
+
+- **Event-Driven Architecture:** Single-threaded event loop utilizing non-blocking `poll()` over TCP sockets to handle thousands of concurrent clients without thread overhead.
+- **Benchmarking:** Built a custom stress tester in **Go** (utilizing 5,000 Goroutines), sustaining **4,090 simultaneous connections with 0.00% packet loss** up to OS kernel file descriptor limits (`ulimit`).
+
+#### 🐳 [Inception](https://github.com/danoguer/inception) — Multi-Tier Containerized Infrastructure
+
+*Multi-service containerized infrastructure built from scratch under strict architectural constraints.*
+
+- **Network Architecture:** Docker environment orchestrating 7 isolated services: NGINX, PHP-FPM, MariaDB, Redis, vsftpd, Adminer, and cAdvisor.
+- **Observability:** Integrated cAdvisor to aggregate real-time container metrics (CPU, Memory, Disk I/O) directly from Linux cgroups.
+
+---
+
+### 🎓 Background
+
+- **42 Systems Core:** C/C++, Unix, networking, memory management, and systems programming.
+- **Competitive Background:** 5 years professional League of Legends + 5 years professional poker.
+- **Current Focus:** AWS, Infrastructure as Code, DevOps, and SRE.
+
+---
+
+### 📫 Connect
+
+- 💼 [LinkedIn](https://linkedin.com/in/daniel-nogueras)
+- ✉️ [danoguer.dev@gmail.com](mailto:danoguer.dev@gmail.com)
+- 🌐 [danoguer.dev](https://danoguer.dev)
