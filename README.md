@@ -1,4 +1,4 @@
-# Daniel Nogueras 👋
+# Daniel Nogueras 
 
 ### Cloud & DevOps Engineer | Systems & Infrastructure
 
@@ -8,7 +8,7 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 
 ---
 
-### 🛠️ Tech Stack & Core Competencies
+###  Tech Stack & Core Competencies
 
 | Domain                    | Technologies & Skills                                                                           |
 | :------------------------ | :---------------------------------------------------------------------------------------------- |
@@ -21,9 +21,9 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
-#### ⚡ [CloudForge](https://github.com/danoguer/cloudforge) — Automated AWS Infrastructure Pipeline
+####  [CloudForge](https://github.com/danoguer/cloudforge) — Automated AWS Infrastructure Pipeline
 
 *Automated AWS deployment pipeline using Infrastructure as Code and configuration management.*
 
@@ -32,7 +32,7 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 - **CI/CD:** Automated validation and deployment workflows using **GitHub Actions**.
 - **Reproducibility:** Single-command deployment and teardown through Terraform, Ansible, and Docker Compose.
 
-#### 🛡️ [Sentinel](https://github.com/danoguer/sentinel) — AI-Assisted SRE Context Engine & System Daemon
+####  [Sentinel](https://github.com/danoguer/sentinel) — AI-Assisted SRE Context Engine & System Daemon
 
 *A Go-based SRE agent combining host telemetry, logs, workspace context, and AI-assisted diagnostics.*
 
@@ -40,14 +40,14 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 - **Security & Resilience:** Built automated regex sanitization to strip secrets, credentials, and tokens before API transmission; implemented exponential backoff retries for transient HTTP errors.
 - **Observability:** Integrates system metrics, process information, logs, and workspace context to provide actionable diagnostic recommendations.
 
-#### 💬 [IRC Server](https://github.com/danoguer/irc-server) — Non-Blocking C++ Network Service
+####  [IRC Server](https://github.com/danoguer/irc-server) — Non-Blocking C++ Network Service
 
 *Custom C++98 Internet Relay Chat server designed for low-level resource management and socket I/O multiplexing.*
 
 - **Event-Driven Architecture:** Single-threaded event loop utilizing non-blocking `poll()` over TCP sockets to handle thousands of concurrent clients without thread overhead.
 - **Benchmarking:** Built a custom stress tester in **Go** (utilizing 5,000 Goroutines), sustaining **4,090 simultaneous connections with 0.00% packet loss** up to OS kernel file descriptor limits (`ulimit`).
 
-#### 🐳 [Inception](https://github.com/danoguer/inception) — Multi-Tier Containerized Infrastructure
+####  [Inception](https://github.com/danoguer/inception) — Multi-Tier Containerized Infrastructure
 
 *Multi-service containerized infrastructure built from scratch under strict architectural constraints.*
 
@@ -56,7 +56,7 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 
 ---
 
-### 🎓 Background
+###  Background
 
 - **42 Systems Core:** C/C++, Unix, networking, memory management, and systems programming.
 - **Competitive Background:** 5 years professional League of Legends + 5 years professional poker.
@@ -64,8 +64,8 @@ Focused on DevOps, Site Reliability Engineering (SRE), and Cloud Infrastructure,
 
 ---
 
-### 📫 Connect
+###  Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/daniel-nogueras)
-- ✉️ [danoguer.dev@gmail.com](mailto:danoguer.dev@gmail.com)
-- 🌐 [danoguer.dev](https://danoguer.dev)
+-  [LinkedIn](https://linkedin.com/in/daniel-nogueras)
+-  [danoguer.dev@gmail.com](mailto:danoguer.dev@gmail.com)
+-  [danoguer.dev](https://danoguer.dev)
